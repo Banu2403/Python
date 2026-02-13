@@ -1,0 +1,6 @@
+X= (input("new password:"))
+Y =(input("checking:"))
+if X == Y:
+    print("--Accepted succesfully--")
+else:
+    print("--Acces denied--")
