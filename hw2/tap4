@@ -1,0 +1,7 @@
+
+num = (input("ededi daxil ele:"))
+inputun_leni = len(num)
+if inputun_leni > 4:
+    print("leng coxdur")
+else:
+    print(inputun_leni)
