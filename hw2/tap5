@@ -1,0 +1,11 @@
+num = int(input("ededi daxil ele:"))
+bes = (num // 10000)%10
+d = (num // 1000)% 10
+u = (num // 100)% 10
+i = (num // 10)% 10
+bir =  num % 10
+
+if bes == bir and d == i:
+    print("it's palindrom:)")
+else:
+   print("try again:(")
