@@ -1,0 +1,6 @@
+#2
+eded= int(input("3 reqemli yaz :"))
+y_luk = (eded //100)%10
+on_liq = (eded// 10)%10
+tek_lik = eded %10
+print(y_luk + on_liq + tek_lik)
