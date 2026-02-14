@@ -1,0 +1,26 @@
+ay = int(input("ayini yaz 1-12:"))
+ayin_gunu = int(input("ayinin gununu yaz 1-31:"))
+if ((ay == 1 and ayin_gunu >= 22) and (ay ==1 and ayin_gunu <= 31)) or ((ay == 2 and ayin_gunu <= 19)and (ay ==2 and ayin_gunu <= 31) ):
+    print("Dolça")
+elif ((ay == 2 and ayin_gunu >= 20) and (ay == 2 and ayin_gunu <= 29)) or ((ay == 3 and ayin_gunu <= 20) and (ay == 3 and ayin_gunu <= 31)):
+    print("Balıqlar")
+elif ((ay == 3 and ayin_gunu >= 21) and (ay == 3 and ayin_gunu <= 31)) or ((ay == 4 and ayin_gunu <= 20) and (ay == 4 and ayin_gunu <= 30)):
+    print("Qoç")
+elif ((ay == 4 and ayin_gunu >= 21) and (ay == 4 and ayin_gunu <= 30)) or ((ay == 5 and ayin_gunu <= 21) and (ay == 5 and ayin_gunu <= 31)):
+    print("Buğa")
+elif ((ay == 5 and ayin_gunu >= 22) and (ay == 5 and ayin_gunu <= 31)) or ((ay == 6 and ayin_gunu <= 21) and (ay ==6 and ayin_gunu <= 30)):
+    print("Əkizlər")
+elif ((ay == 6 and ayin_gunu >= 22) and (ay == 6 and ayin_gunu <= 30)) or ((ay == 7 and ayin_gunu <= 22) and (ay ==7 and ayin_gunu <= 31)):
+    print("Xərçəng")
+elif ((ay == 7 and ayin_gunu >= 23) and (ay == 7 and ayin_gunu <= 31)) or ((ay == 8 and ayin_gunu <= 21) and (ay ==8 and ayin_gunu <= 31)):
+    print("Şir")
+elif ((ay == 8 and ayin_gunu >= 22) and (ay == 8 and ayin_gunu <= 31)) or ((ay == 9 and ayin_gunu <= 23) and (ay ==9 and ayin_gunu <= 30)):
+    print("Qız")
+elif ((ay == 9 and ayin_gunu >= 24) and (ay == 9 and ayin_gunu <= 30)) or ((ay == 10 and ayin_gunu <= 23) and (ay ==10 and ayin_gunu <= 31)):
+    print("Tərəzi")
+elif ((ay == 10 and ayin_gunu >= 24) and (ay ==10 and ayin_gunu <=31)) or ((ay ==11 and ayin_gunu <=22)and(ay==11 and ayin_gunu<=30)):
+    print("Əqrəb")
+elif ((ay == 11 and ayin_gunu >= 23) and (ay == 11 and ayin_gunu <= 30)) or ((ay == 12 and ayin_gunu <= 21) and (ay ==12 and ayin_gunu <= 31)):
+    print("Oxatan")
+elif ((ay == 12 and ayin_gunu >= 22) and (ay == 12 and ayin_gunu <= 31)) or ((ay == 1 and ayin_gunu <= 21) and (ay ==1 and ayin_gunu <= 31)):
+    print("Oğlaq")
